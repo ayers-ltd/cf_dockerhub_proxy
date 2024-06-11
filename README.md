@@ -1,1 +1,2 @@
-# cf_dockerhub_proxy
+由于国内上网环境的原因，在部署某些云原生应用时，通常会遇到镜像无法直接拉取，例如 k8s.io、gcr.io、quay.io 等国外仓库中的镜像
+使用cf workers 代理解决相关 dockerhub镜像服务域名 受网络阻断问题，详细使用看代码内部解释
